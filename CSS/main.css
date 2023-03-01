@@ -17,7 +17,7 @@ body {
     background-color: var(--Very-dark-blue1);
 }
 .card {
-    width: 380px;
+    max-width: 350px;
     background-color: var(--Very-dark-blue2);
     height: fit-content;
     border-radius: 1rem;
@@ -37,11 +37,11 @@ body {
     position: relative;
 }
 .card .card-container .image i{
+    font-size: 30px;
+    color: var(--White);
     display: none;
     position: absolute;
     top: 50%;
-    font-size: 30px;
-    color: var(--White);
 }
 .card .card-container .image img {
     width: 100%;
@@ -51,9 +51,7 @@ body {
     content: "";
     background-color: var(--Cyan);
     width: 87%;
-    height: 87%;
-    object-fit: cover;
-    /* mix-blend-mode: multiply; */
+    height: 86%;
     opacity: 0.4;
     position: absolute;
     border-radius: .5rem;
